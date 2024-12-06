@@ -1,0 +1,285 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #FFEFE7;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+body svg path {
+  stroke: currentColor;
+}
+
+nav {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  color: #7C6A0A;
+}
+nav p {
+  padding-left: 30px;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 3.9rem;
+}
+nav .icons {
+  display: flex;
+  gap: 15px;
+}
+nav .icons button {
+  background: none;
+  border-style: none;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+main article {
+  height: 680px;
+  min-height: auto;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #7C6A0A;
+}
+main article .impact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+main article .impact-section h1 {
+  margin: 0px;
+  margin-top: 40px;
+  font-size: 6rem;
+  font-weight: bold;
+  line-height: 7.8rem;
+}
+main article .impact-section p {
+  margin-bottom: 100px;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3.25rem;
+}
+main article .impact-section button {
+  background: none;
+  border-style: none;
+}
+main article .impact-section button {
+  width: 230px;
+  height: auto;
+  padding: 20px;
+  border-radius: 35px;
+  background-color: #fa9500;
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 100px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+main article .impact-section button:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
+main article .image-section {
+  width: 500px;
+  height: 668px;
+}
+main article .image-section img {
+  width: 100%;
+  height: 100%;
+  border-radius: 19px;
+}
+main section {
+  width: auto;
+  height: auto;
+  margin-top: 60px;
+}
+main section h2 {
+  color: #7C6A0A;
+  font-size: 4rem;
+  font-weight: 400;
+}
+main section .healthcare, main section .about-us, main section .furniture {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+main section .healthcare h2, main section .about-us h2, main section .furniture h2 {
+  margin-bottom: 60px;
+}
+main section .healthcare h3, main section .about-us h3, main section .furniture h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+main section .healthcare p, main section .about-us p, main section .furniture p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+main section .healthcare .card-section, main section .about-us .card-section, main section .furniture .card-section {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  row-gap: 100px;
+}
+main section .healthcare .product-card, main section .about-us .product-card, main section .furniture .product-card {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+  width: 14vw;
+  height: 45vh;
+  background-color: #FFDAC6;
+  color: #7C6A0A;
+  padding: 20px;
+  border-radius: 8px;
+}
+main section .healthcare .product-card .icon, main section .about-us .product-card .icon, main section .furniture .product-card .icon {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 12px;
+  padding-left: 5px;
+}
+main section .healthcare .product-card .icon svg, main section .about-us .product-card .icon svg, main section .furniture .product-card .icon svg {
+  width: 32px;
+  height: 32px;
+}
+main section .healthcare .product-card .product-img, main section .about-us .product-card .product-img, main section .furniture .product-card .product-img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section .healthcare .product-card .product-img img, main section .about-us .product-card .product-img img, main section .furniture .product-card .product-img img {
+  width: 12vw;
+  height: 30vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 6px;
+}
+main section .furniture .product-card {
+  background-color: #BABD8D;
+  color: white;
+}
+main .about-us .mission-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .about-us .mission-section .earth, main .about-us .mission-section .innovation {
+  width: 30vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  color: #E86424;
+}
+main .about-us .mission-section .earth img, main .about-us .mission-section .innovation img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+main .about-us .mission-section .earth p, main .about-us .mission-section .innovation p {
+  font-size: 3rem;
+  text-align: center;
+}
+main .gallery h2 {
+  margin-bottom: 40px;
+}
+main .gallery .gallery-images {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 110px;
+}
+main .gallery .gallery-images div {
+  width: 26vw;
+  height: 50vh;
+}
+main .gallery .gallery-images div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 16px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+main .gallery .gallery-images div img:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
+main .location {
+  margin-top: 100px;
+  color: #E86424;
+}
+main .location .map {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+main .location .map iframe {
+  border-radius: 16px;
+}
+main .location h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+main .location p {
+  margin: 0;
+  padding-left: 5px;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+footer {
+  height: auto;
+  padding: 30px;
+  margin-top: 100px;
+  background-color: #fa9500;
+  color: white;
+}
+footer h3 {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 3.9rem;
+}
+footer p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+}
+footer .social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+footer .social-media img {
+  width: 30px;
+  height: 30px;
+}/*# sourceMappingURL=main.css.map */
